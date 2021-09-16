@@ -11,20 +11,20 @@
 
     Example usage:
 
-    $ cat pgrid
-    1 9 3 3    7 1 7 7    1 0 3 1    1 1 3 3
-    9 1 4 5    7 4 8 1    5 0 7 8    7 9 1 9
-    7 6 9 9    5 6 3 2    2 5 2 1    3 6 9 2
-    7 1 9 3    7 8 8 3    3 6 7 1    3 7 1 9
-    $ ./rince2 < pgrid > primes
-    $ wc primes
-        235     235    1012 primes
-    $ cat primes
-    1429
-    17
-    1723
+        $ cat pgrid
+        1 9 3 3    7 1 7 7    1 0 3 1    1 1 3 3
+        9 1 4 5    7 4 8 1    5 0 7 8    7 9 1 9
+        7 6 9 9    5 6 3 2    2 5 2 1    3 6 9 2
+        7 1 9 3    7 8 8 3    3 6 7 1    3 7 1 9
+        $ ./rince2 < pgrid > primes
+        $ wc primes
+            235     235    1012 primes
+        $ cat primes
+        1429
+        17
+        1723
 
-    (etc)
+        (etc)
 
     Extra credit will be given to readers who find a 4x4x4 cube with more than
     235 unique primes. I suggest that you don't use this code to do so though!
